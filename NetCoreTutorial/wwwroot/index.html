@@ -3,13 +3,16 @@
 <head>
     <meta charset="utf-8" />
     <title>Dutch Treat</title>
+    <link href="css/site.css" rel="stylesheet" />
+
 </head>
 <body>
     <h1>Dutch Treat</h1>
-    <div>
-        <img src="/img/VanGogh.jpg"/>
+
+    <div class="productInfo">
+        <img src="/img/VanGogh.jpg" />
         <h3>Mug</h3>
-        <ul>
+        <ul class="productProps">
             <li>Price: $9.99</li>
             <li>Artist: Van Gogh</li>
             <li>Title: </li>
@@ -17,5 +20,41 @@
         </ul>
         <button>Buy</button>
     </div>
+
+    <div class="productInfo">
+        <img src="/img/VanGogh.jpg" />
+        <h3>Mug</h3>
+        <ul class="productProps">
+            <li>Price: $9.99</li>
+            <li>Artist: Van Gogh</li>
+            <li>Title: </li>
+            <li>Description: Self-Portrait</li>
+        </ul>
+        <button>Buy</button>
+    </div>
+
+    <div id="theForm">
+        <form>
+            <label>Your name:</label>
+            <br />
+            <input />
+            <br />
+            <label>Email:</label>
+            <br />
+            <input type="email" />
+            <br />
+            <label>Subject:</label>
+            <br />
+            <input type="text" />
+            <br />
+            <label>Message:</label>
+            <br />
+            <textarea rows="4"></textarea>
+            <br />
+            <input type="submit" value="Send Message" />
+        </form>
+    </div>
+
+
 </body>
 </html>
