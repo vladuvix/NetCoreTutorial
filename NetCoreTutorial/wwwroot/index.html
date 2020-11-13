@@ -1,11 +1,12 @@
 ﻿<!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <title>Dutch Treat</title>
     <link href="css/site.css" rel="stylesheet" />
-
 </head>
+
 <body>
     <h1>Dutch Treat</h1>
 
@@ -18,7 +19,7 @@
             <li>Title: </li>
             <li>Description: Self-Portrait</li>
         </ul>
-        <button>Buy</button>
+        <button class="MyButton">Buy</button>
     </div>
 
     <div class="productInfo">
@@ -30,7 +31,7 @@
             <li>Title: </li>
             <li>Description: Self-Portrait</li>
         </ul>
-        <button>Buy</button>
+        <button class="MyButton">Buy</button>
     </div>
 
     <div id="theForm">
@@ -55,6 +56,30 @@
         </form>
     </div>
 
+    <div>
+        <div id="loginToggle">Login</div>
+            <form class="popupForm">
+                <div>
+                    <label>Username:</label>
+                    <input />
+                </div>
+            <div>
+            <label>Password:</label>
+            <input type="password" />
+            </div>
+                <div>
+                    <input type="checkbox" />
+                    <label>Remember me</label>
+                </div>
+                <div>
+                    <input type="submit" value="Login" />
+                </div>
+            </form>
+    </div>
 
+
+
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>

@@ -38,6 +38,7 @@ namespace NetCoreTutorial
             //});
             app.UseDefaultFiles();
             app.UseStaticFiles();
+            app.UseNodeModules();
         }
     }
 }
